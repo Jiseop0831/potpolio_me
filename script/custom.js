@@ -159,7 +159,7 @@ function rightslide() {
     slidecnt++;
     console.log(slidecnt)
     slide.style.transform = `translateX(${-block * slidecnt}px)`;
-    if(slidecnt == 3) {
+    if(slidecnt == 4) {
          setTimeout(function() {
              slide.classList.remove('slidemove')
              slide.style.transform = 'translateX(0px)'; 
