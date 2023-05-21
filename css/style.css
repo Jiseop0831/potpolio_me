@@ -8,7 +8,7 @@
   }
   
   .body {
-    height: 100%;
+    height: 100vh;
     background-image: url(../img/배경.jfif);
     background-size: cover;
   }
@@ -28,7 +28,7 @@
     position: relative;
     margin: 0 auto;
     width: 80%;
-    height: 969px;
+    height: 110%;
     z-index: 10;
     background-color: white;
   }
@@ -43,7 +43,8 @@
 /************메인*****************/
 
 .potpolio {
-  width: 250px;
+  width: 400px;
+
   margin: 0 auto;
   text-align: center;
   position: relative;
@@ -71,7 +72,6 @@
   font-size: 1.6rem;
   line-height: 45px;
 }
-
 
 .potpolio > ul > li:hover {
   opacity: 60%;
@@ -137,11 +137,6 @@ span {
   font-weight: 600;
   top: 10;
 }
-
-#one {
-  background-color: bisque;
-}
-
 #one p {
   font-size: 0.85rem;
 }
@@ -155,6 +150,15 @@ span {
 .close_modal1 {
   margin-bottom: 20px;
 }
+
+/******************open_modal*********************/
+
+.open_modal5 a {
+  font-size: 28px;
+  line-height: 45px;
+}
+
+/******************open_modal*********************/
 
 #one {
   background-color: rgb(255, 248, 151);
@@ -182,6 +186,20 @@ span {
 
 #four p {
   font-size: 0.9rem;
+}
+
+#five {
+  background-color: rgb(219, 141, 255);
+  opacity: 1;
+  display: none;
+}
+
+#four button {
+  margin-bottom: 20px;
+}
+
+#five button {
+  margin-bottom: 20px;
 }
 
 /*****************애니메이션1********************/

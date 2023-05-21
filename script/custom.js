@@ -111,6 +111,16 @@ $('.close_modal4').click(function() {
     $('.modal_inner').fadeOut();
 })
 
+$('.open_modal5').click(function() {
+    $('.modal_inner').fadeIn();
+    $('#five').fadeIn();
+})
+$('.close_modal5').click(function() {
+    $('#five').fadeOut();
+    $('.modal_inner').fadeOut();
+})
+
+
 
 /****************************************/
 
@@ -159,7 +169,7 @@ function rightslide() {
     slidecnt++;
     console.log(slidecnt)
     slide.style.transform = `translateX(${-block * slidecnt}px)`;
-    if(slidecnt == 4) {
+    if(slidecnt == 5) {
          setTimeout(function() {
              slide.classList.remove('slidemove')
              slide.style.transform = 'translateX(0px)'; 
